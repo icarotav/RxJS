@@ -57,7 +57,7 @@ let subscription = source.subscribe(
   err => {
     console.log('Error: %s', err);
   },
-  => () {
+  () => {
     console.log('Completed');
   });
 
